@@ -149,3 +149,17 @@ elif b > a :
     print('B is greater')
 else:
     print('A & B are same')
+
+# operators in python
+
+#arithmetic operators
+
+x = 9;
+y = 4;
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x//y)
+print(x%y)
+print(x**y)
