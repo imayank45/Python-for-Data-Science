@@ -165,18 +165,47 @@ print(x%y)
 print(x**y)
 
 # presedence in python operators
-# ^ ** 
-# | * / //
-# | + -
+#    ^    ** 
+#    |    * / //
+#    |    + -
 
 print(5+2*3)
 print(5+3*4**2)
 
 # associativity in python operators
-# + -       left to right
-# * / //    left to right
-# **        right to left
+#    + -       left to right
+#    * / //    left to right
+#    **        right to left
 
 print(5+4-2)
 print(2**2**-1)
 print((2**2)**-1)
+
+# logical oeprators in python
+
+a = 10
+b = 20
+c = 30
+print(a < b and b < c)
+print(a < b or b > c)
+print(not a > b)
+
+s1 = ''
+s2 = s1 or 'DefaultStr'
+print(s2)
+
+# identity comparision operators
+# is, is not
+
+x = 10
+y = x
+print(x is y)
+print(x is not y)
+
+# membership comparsion operators
+# in, not in
+
+s = 'Mayank'
+print('ay' in s)
+print('m' in s)
+print('aynak' in s)

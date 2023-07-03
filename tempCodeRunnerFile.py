@@ -1,3 +1,4 @@
-print(5+4-2)
-print(2**2**-1)
-print((2**2)**-1)
+s = 'Mayank'
+print('ay' in s)
+print('m' in s)
+print('aynak' in s)
