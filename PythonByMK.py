@@ -163,3 +163,20 @@ print(x/y)
 print(x//y)
 print(x%y)
 print(x**y)
+
+# presedence in python operators
+# ^ ** 
+# | * / //
+# | + -
+
+print(5+2*3)
+print(5+3*4**2)
+
+# associativity in python operators
+# + -       left to right
+# * / //    left to right
+# **        right to left
+
+print(5+4-2)
+print(2**2**-1)
+print((2**2)**-1)
