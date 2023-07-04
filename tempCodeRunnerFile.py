@@ -1,4 +1,3 @@
-s = 'Mayank'
-print('ay' in s)
-print('m' in s)
-print('aynak' in s)
+x = 3
+y = 6 
+print(x ^ y)

@@ -209,3 +209,23 @@ s = 'Mayank'
 print('ay' in s)
 print('m' in s)
 print('aynak' in s)
+
+# bitwise operators in python
+
+# bitwise AND : &
+
+x = 3
+y = 6 
+print(x & y)
+
+# bitwise OR : |
+
+x = 3
+y = 6 
+print(x | y)
+
+# bitwise XOR : ^
+
+x = 3
+y = 6 
+print(x ^ y)
