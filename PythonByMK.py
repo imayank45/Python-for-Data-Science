@@ -229,3 +229,22 @@ print(x | y)
 x = 3
 y = 6 
 print(x ^ y)
+
+# left shift operator
+
+x = 5
+print(x << 1)
+print(x << 2)
+print(x << 3)
+
+# right shift operator
+
+x = 5
+print(x >> 1)
+print(x >> 2)
+print(x >> 3)
+
+# bitwise NOT : ~
+
+x = 5
+print(~x)
