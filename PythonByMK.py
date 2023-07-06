@@ -263,3 +263,53 @@ while i < 5:
     print('Mayank')
     i += 2
 
+# range() in python
+
+r = range(5)
+print(r)
+l = list(r)
+print(l)
+
+r = range(5)
+print(type(r))
+
+r = range(10,20)
+l = list(r)
+print(l)
+
+r = range(10,20,2)
+l = list(r)
+print(l)
+
+# for loop
+
+l = [10,20,30,40,50]
+for i in l:
+    print(i)
+
+m = 'mayank'
+for i in m:
+    print(i)
+
+for x in range(5):
+    print(x)
+
+l = [10,20,30,40,50]
+for i in range(len(l)):
+    print(l[i])
+
+# break in python
+
+n = int(input('Enter a number: '))
+for i in range(2,n+1):  
+    if n % i == 0:
+        print(i)
+        break
+
+# continue in python
+
+l = [10,16,17,18,19,15]
+for i in l:
+    if i % 5 == 0:
+        continue
+    print(i)
