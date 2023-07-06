@@ -248,3 +248,18 @@ print(x >> 3)
 
 x = 5
 print(~x)
+
+# loops in python
+
+# while loop
+
+i = 0
+while i < 5:
+    print('Mayank')
+    i += 1
+
+i = 0
+while i < 5:
+    print('Mayank')
+    i += 2
+
