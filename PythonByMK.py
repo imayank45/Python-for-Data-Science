@@ -313,3 +313,10 @@ for i in l:
     if i % 5 == 0:
         continue
     print(i)
+    
+# functions in python
+
+def myfunc():
+    print('Function called')
+print('Calling Function')
+myfunc()
