@@ -327,3 +327,30 @@ print(ord('a'))
 print(ord('A'))
 print(chr(65))
 print(chr(97))
+
+s = 'mayank'
+print(s)
+print(s[0])
+print(s[1])
+print(s[-1])
+print(s[-2])
+
+# strings are immutable
+
+s = 'kathane'
+s[0] = 'm'
+print(s)  # error
+
+# use of """in strings"""
+
+s = """Good Better Best,
+Love is Waste"""
+print(s)
+
+# string operations
+
+s1 = 'hellohihello'
+s2 = 'hello'
+print(s2 in s1)
+print(s2 not in s1)
+
