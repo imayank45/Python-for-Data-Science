@@ -320,3 +320,10 @@ def myfunc():
     print('Function called')
 print('Calling Function')
 myfunc()
+
+# strings in python
+
+print(ord('a'))
+print(ord('A'))
+print(chr(65))
+print(chr(97))
