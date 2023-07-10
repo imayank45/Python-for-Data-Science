@@ -354,3 +354,40 @@ s2 = 'hello'
 print(s2 in s1)
 print(s2 not in s1)
 
+s1 = 'hihello'
+s2 = 'hi'
+s3 = s1 + s2
+s4 = 'good morning ' + s1 + s2
+print(s3)
+print(s4)
+
+s1 = 'hellohihello'
+s2 = 'hello'
+print(s1.index(s2))
+print(s1.rindex(s2))
+
+s1 = 'mayank'
+print(len(s1))
+s2 = s1.lower()
+print(s2)
+s3 = s2.upper()
+print(s3)
+print(s1.islower())
+print(s2.isupper())
+
+s = 'hihellohi'
+print(s.startswith('hi'))
+print(s.endswith('hi'))
+
+s1 = 'hi hello hi'
+print(s1.split())
+s2 = 'hi, hello, hi'
+print(s2.split(','))
+l = ['hi', 'hello', 'hi']
+print(' '.join(l))
+print(', '.join(l))
+
+s = '---hihellohi---'
+print(s.strip('-'))
+print(s.lstrip('-'))
+print(s.rstrip('-'))
