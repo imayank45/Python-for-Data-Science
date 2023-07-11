@@ -1,4 +1,5 @@
-s = '---hihellohi---'
-print(s.strip('-'))
-print(s.lstrip('-'))
-print(s.rstrip('-'))
+l = [10,20,30,40,50]
+l.append(15)
+print(l)
+print(l.count(30))
+print(l.index(50))
