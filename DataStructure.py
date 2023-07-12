@@ -44,3 +44,51 @@ print(t[1:3])
 print(len(t))
 print(t.count(30))
 print(t.index(30))
+
+# 3. Set
+
+s = {10,20,30}
+print(s)
+s1 = set([20,30,40])
+print(s1)
+s2 = { }
+print(type(s2))
+s3 = set()
+print(type(s3))
+print(s3)
+
+s = {10,20}
+s.add(30)
+print(s)
+s.add(30)
+print(s)
+s.update([30,40])
+print(s)
+s.update([50,60],[70,80])
+print(s)
+
+s = {10,20,30,40}
+s.discard(30)
+print(s)
+s.remove(10)
+print(s)
+s.clear()
+print(s)
+
+s1 = {2,4,6,8}
+s2 = {3,6,9}
+print(s1 | s2)
+print(s1 & s2)
+print(s1 - s2)
+print(s1 ^ s2)
+
+# 4. Dictionary
+
+d = {101 : 'abc', 102 : 'pqr', 103 : 'xyz'}
+print(d)
+d = { }
+d['laptop'] = 72000
+d['mobile'] = 45000
+d['earphone'] = 2500
+print(d)
+print(d['mobile'])

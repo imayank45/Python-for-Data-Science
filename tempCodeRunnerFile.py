@@ -1,7 +1,8 @@
-t = 10,20,30,40,50,30
-print(t[3])
-print(t[-1])
-print(t[1:3])
-print(len(t))
-print(t.count(30))
-print(t.index(30))
+d = {101 : 'abc', 102 : 'pqr', 103 : 'xyz'}
+print(d)
+d = { }
+d['laptop'] = 72000
+d['mobile'] = 45000
+d['earphone'] = 2500
+print(d)
+print(d['mobile'])
