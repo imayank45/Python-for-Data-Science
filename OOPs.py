@@ -55,7 +55,7 @@ e.designation = 'DS'
 print(e.designation)
 
 
-# class member access in pyhton
+# class member access in python
 
 # 1. In python every member is accessible everywhere
 
