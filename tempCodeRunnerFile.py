@@ -1,10 +1,17 @@
 
-class Test:
-    def __init__(self,x,y):
-        self.__x = x
-        self.y = y
-    def __fun(self):
-        print('Hi')
-t2 = Test(1,2)
-print(t2.__x)
-print(t2.y)
+# static methods
+
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    @classmethod
+    def isAdult(cls,age):
+        return (age > 18)
+    def printDetails(self):
+        print(self.name)
+        print(self.age)
+        print(Person.isAdult(self.age))
+p = Person('Mayank',22)
+p.printDetails()
+print(Person.isAdult(24))

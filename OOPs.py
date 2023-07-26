@@ -90,3 +90,60 @@ class Test:
 t2 = Test(1,2)
 print(t2.__x)
 print(t2.y)
+
+
+# Decorators
+
+# Function assigned to a variable and passed as parameter
+
+def fun1():
+    print('Inside fun1')
+def fun2(f):
+    print('Inside fun2')
+    f()
+f = fun1
+f()
+print()
+fun2(f)
+
+# Function inside a function
+
+def fun2():
+    print('Inside fun2')
+    def fun1():
+        print('Inside fun1')
+    fun1()
+fun2()
+
+
+# Class methods
+
+class Employee():
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    @classmethod
+    def setCompName(cls,cName):
+        cls.compName = cName
+Employee.setCompName('Mayank Co.')
+print(Employee.compName)    
+e = Employee('Mayank',22)
+print(e.compName)
+
+
+# static methods
+
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    @classmethod
+    def isAdult(cls,age):
+        return (age > 18)
+    def printDetails(self):
+        print(self.name)
+        print(self.age)
+        print(Person.isAdult(self.age))
+p = Person('Mayank',22)
+p.printDetails()
+print(Person.isAdult(24))
