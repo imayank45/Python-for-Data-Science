@@ -137,8 +137,8 @@ class Person:
     def __init__(self,name,age):
         self.name = name
         self.age = age
-    @classmethod
-    def isAdult(cls,age):
+    @staticmethod
+    def isAdult(age):
         return (age > 18)
     def printDetails(self):
         print(self.name)
