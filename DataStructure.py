@@ -24,7 +24,7 @@ print(l)
 del l[0:2]
 print(l)
 
-
+ 
 # 2. Tuple
 
 t = (10,20,'messi')
